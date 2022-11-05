@@ -1,0 +1,62 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Activation"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="1010.448" Loaded="Window_Loaded" WindowState="Maximized">
+    <Grid Background="{DynamicResource Bg}">
+        <TextBox Height="77" Margin="302,0,34,194" x:Name="StudentCode" VerticalAlignment="Bottom" MaxLength="6" TabIndex="0" AutoWordSelection="True" FontFamily="Times New Roman" FontSize="36" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            <TextBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White" Offset="0" />
+                    <GradientStop Color="#37FFFF00" Offset="1" />
+                </LinearGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox Height="77" Margin="302,0,34,100" x:Name="Serial" VerticalAlignment="Bottom" MaxLength="1000" TabIndex="1" AutoWordSelection="True" FontSize="36" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            <TextBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White" Offset="0" />
+                    <GradientStop Color="#37FFFF00" Offset="1" />
+                </LinearGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+        <Label Content="Student Code" Height="77" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="9,0,0,194" x:Name="lblId" UseLayoutRounding="True" Width="287" VerticalAlignment="Bottom" BorderThickness="1" BorderBrush="#FF078200" Foreground="#FF078200" FontSize="36" />
+        <Label Content="Serial" Height="77" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="10,0,0,100" x:Name="lblName" UseLayoutRounding="True" Width="287" VerticalAlignment="Bottom" BorderThickness="1" BorderBrush="#FF078200" Foreground="#FF078200" FontSize="36"/>
+        <TextBox Height="77" Margin="301,0,34,10" x:Name="Activation" VerticalAlignment="Bottom" MaxLength="1000" TabIndex="1" AutoWordSelection="True" FontSize="36" IsReadOnly="True" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            <TextBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White" Offset="0" />
+                    <GradientStop Color="#37FFFF00" Offset="1" />
+                </LinearGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+        <Label Content="Activation" Height="77" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="10,0,0,10" x:Name="lblId_Copy" UseLayoutRounding="True" Width="287" VerticalAlignment="Bottom" BorderThickness="1" BorderBrush="#FF078200" Foreground="#FF078200" FontSize="36" />
+        <Grid x:Name="GridBackground" Margin="12,12,12,276" >
+            <Grid.Background>
+                <ImageBrush ImageSource="Logo.png" Stretch="Uniform"/>
+            </Grid.Background>
+            <CheckBox Content="مخزن وهمى" Height="16" HorizontalAlignment="Center" Margin="217,147,317,63" x:Name="CheckBox1" VerticalAlignment="Center" Visibility="Hidden"  Width="120" TabIndex="2" />
+            <CheckBox Content="استلام التحويلات أوتوماتيكيا" Height="16" HorizontalAlignment="Center" Margin="259,172,329,38" x:Name="CheckBox2" VerticalAlignment="Center"  Visibility="Hidden" Width="150" TabIndex="2" />
+            <Image Height="120" HorizontalAlignment="Center" Margin="583,43,55,63" x:Name="Image1"   Stretch="Fill" VerticalAlignment="Center" Width="100" Visibility="Hidden"  />
+            <Button Content="Change" HorizontalAlignment="Center"  x:Name="btnSetImage" TabIndex="35" VerticalAlignment="Center" Width="82"  Margin="687,65,-31,123" Visibility="Hidden">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#B4FF0000" Offset="0" />
+                        <GradientStop Color="Black" Offset="1" />
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Content="Cancel" HorizontalAlignment="Center"  x:Name="btnSetNoImage" TabIndex="35" VerticalAlignment="Center" Width="82"  Margin="687,114,-31,74" Visibility="Hidden">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#B4FF0000" Offset="0" />
+                        <GradientStop Color="Black" Offset="1" />
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+        </Grid>
+    </Grid>
+</Window>

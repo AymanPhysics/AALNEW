@@ -1,0 +1,17 @@
+﻿<Window x:Class="Form2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        xmlns:wv2="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf"
+        Title="Learn Academy" Height="411.29" Width="784.516" Loaded="Window_Loaded" WindowState="Maximized" Closing="Window_Closing" KeyDown="Window_KeyDown" WindowStyle="ToolWindow" PreviewKeyDown="Window_PreviewKeyDown" PreviewMouseDoubleClick="Window_PreviewMouseDoubleClick" MouseDoubleClick="Window_MouseDoubleClick" 
+>
+    <Grid x:Name="MyGrid" Margin="0,0,0.4,-45.6">
+        <wv2:WebView2 Name = "webView"  >
+            <wv2:WebView2.ContextMenu>
+                <ContextMenu/>
+            </wv2:WebView2.ContextMenu>
+        </wv2:WebView2>
+    </Grid>
+</Window>

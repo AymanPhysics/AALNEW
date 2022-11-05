@@ -1,0 +1,17 @@
+D:\OneDrive\Projects\Projects\AALNEW\Activation\bin\Debug\Activation.exe.config
+D:\OneDrive\Projects\Projects\AALNEW\Activation\bin\Debug\Activation.exe
+D:\OneDrive\Projects\Projects\AALNEW\Activation\bin\Debug\Activation.pdb
+D:\OneDrive\Projects\Projects\AALNEW\Activation\bin\Debug\Activation.xml
+D:\OneDrive\Projects\Projects\AALNEW\Activation\obj\Debug\MainWindow.g.vb
+D:\OneDrive\Projects\Projects\AALNEW\Activation\obj\Debug\Application.g.vb
+D:\OneDrive\Projects\Projects\AALNEW\Activation\obj\Debug\Activation_MarkupCompile.cache
+D:\OneDrive\Projects\Projects\AALNEW\Activation\obj\Debug\Activation_MarkupCompile.lref
+D:\OneDrive\Projects\Projects\AALNEW\Activation\obj\Debug\MainWindow.baml
+D:\OneDrive\Projects\Projects\AALNEW\Activation\obj\Debug\Activation.g.resources
+D:\OneDrive\Projects\Projects\AALNEW\Activation\obj\Debug\Activation.Resources.resources
+D:\OneDrive\Projects\Projects\AALNEW\Activation\obj\Debug\Activation.vbproj.GenerateResource.cache
+D:\OneDrive\Projects\Projects\AALNEW\Activation\obj\Debug\Activation.vbproj.CoreCompileInputs.cache
+D:\OneDrive\Projects\Projects\AALNEW\Activation\obj\Debug\Activation.exe
+D:\OneDrive\Projects\Projects\AALNEW\Activation\obj\Debug\Activation.xml
+D:\OneDrive\Projects\Projects\AALNEW\Activation\obj\Debug\Activation.pdb
+D:\OneDrive\Projects\Projects\AALNEW\Activation\obj\Debug\Activation.vbproj.AssemblyReference.cache
